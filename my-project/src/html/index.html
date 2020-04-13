@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- 图片区 -->
+        <div class="song-img">
+            <div class="img-wrapper" data-deg=0>
+                <img src="../image/jakob-owens-208991.jpg" alt="">
+            </div>
+        </div>
+        <!-- 歌曲信息 -->
+        <div class="song-info">
+
+        </div>
+        <!-- 进度条 -->
+        <div class="pro">
+            <div class="cur-time"></div>
+            <div class="pro-wrapper">
+                <div class="pro-bottom"></div>
+                <div class="pro-top">
+                    <div class="slider-point"></div>
+                </div>
+            </div>
+            <div class="all-time"></div>
+        </div>
+        <!-- 按钮控制区 -->
+        <div class="control">
+            <div class="btn-wrapper like-btn"></div>
+            <div class="btn-wrapper prev-btn"></div>
+            <div class="btn-wrapper play-btn"></div>
+            <div class="btn-wrapper next-btn"></div>
+            <div class="btn-wrapper list-btn"></div>
+        </div>
+    </div>
+    <script src="../js/zepto.min.js"></script>
+    <!-- 高斯模糊 -->
+    <script src="../js/gaussBlur.js"></script>
+    <!-- 渲染界面 -->
+    <script src="../js/render.js"></script>
+    <!-- 切换索引 -->
+    <script src="../js/controlManager.js"></script>
+    <!-- 音频播放模块 -->
+    <script src="../js/audioManager.js"></script>
+    <!-- 时间进度条 -->
+    <script src="../js/pro.js"></script>
+    <!-- 列表切歌 -->
+    <script src="../js/playList.js"></script>
+    <!-- 主入口文件 -->
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
